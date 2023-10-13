@@ -19,7 +19,7 @@ public final class BusinessAccount extends Account {
     @Override
     public void withdraw(double amount){
         super.withdraw(amount); //O super chama a classe pai. Nesse caso usamos o método da classe pai.
-        balance -= 2.0;
+        balance -= 10.0;
     }
 
     //Override (Sobrescrita de método. A anotação @Override informa ao compilador a sobrescrita, sendo assim uma boa prática.)
